@@ -6,7 +6,7 @@ const Contacts = ({ contactList, remove, }) => (
   <Table celled padded>
     <TableHeader>
       <Table.Row>
-        <Table.HeaderCell>First Name</Table.HeaderCell>
+        <Table.HeaderCell>Name</Table.HeaderCell>
         <Table.HeaderCell>Phone</Table.HeaderCell>
         <Table.HeaderCell>Options</Table.HeaderCell>
       </Table.Row>

@@ -6,10 +6,16 @@ const Contact = ({ id, name, phone, remove, }) => (
     <Table.Cell>{name}</Table.Cell>
     <Table.Cell>{phone}</Table.Cell>
     <Table.Cell>
-      <Button color="red" onClick={() => remove(id)}>
-        <Icon name="trash"></Icon>
-        Delete
-      </Button>
+      <Button.Group fluid>
+        <Button color="red" onClick={() => remove(id)}>
+          <Icon name="trash"></Icon>
+          Delete
+        </Button>
+        <Button color="yellow">
+          <Icon name="wrench"></Icon>
+          Edit
+        </Button>
+      </Button.Group>
     </Table.Cell>
   </Table.Row>
 )

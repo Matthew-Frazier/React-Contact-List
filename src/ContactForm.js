@@ -33,17 +33,19 @@ class Contact extends React.Component {
         <Form.Group widths="equal">
           <Form.Field inline fluid>
             <label>Name</label>
-            <input placeholder="Name" 
-            name="name"
-            value={this.state.name}
-            onChange={this.handleChange}/>
+            <input 
+              placeholder="Name" 
+              name="name"
+              value={this.state.name}
+              onChange={this.handleChange}/>
           </Form.Field> 
           <Form.Field inline fluid>
             <label>Phone</label>
-            <input placeholder="Phone" 
-            name="phone"
-            value={this.state.phone}
-            onChange={this.handleChange}/>
+            <input 
+              placeholder="Phone" 
+              name="phone"
+              value={this.state.phone}
+              onChange={this.handleChange}/>
           </Form.Field> 
           <Form.Button color="green">Submit</Form.Button>
         </Form.Group>
